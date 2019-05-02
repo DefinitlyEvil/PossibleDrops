@@ -1,0 +1,35 @@
+##########################################
+#             Possible Drops             #
+#                     by DefinitlyEvil   #
+##########################################
+
+# Drop chance settings
+chances:
+  # General possibility for a item in the inventory to drop.
+  # In numeric form, for example, 0.2 means 20% chance for a item to be dropped.
+  # You can regard it as a default drop chance.
+  general: 0.5
+
+  # Experience drop.
+  exp:
+    chance: 0.4
+    # this defines the max percentage of experience will the player drop when hit
+    # the chance of dropping it.
+    max-percentage: 0.2
+
+  # Drop chances for specific types
+  specific:
+    food: 0.6
+    fuels: 0.5
+    blocks: 0.4
+    tools:
+      diamond: 0.1
+      golden: 0.3
+      iron: 0.4
+      stone: 0.5
+      wooden: 0.6
+    armors:
+      diamond: 0.1
+      golden: 0.3
+      iron: 0.4
+      leather: 0.6

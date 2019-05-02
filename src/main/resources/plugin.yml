@@ -1,0 +1,5 @@
+name: PossibleDrops
+version: ${project.version}
+main: org.dragonet.possibledrops.PossibleDrops
+api-version: 1.13
+description: A new way to deal with deaths, it adds drop possibilities for each item in the player's inventory. 
