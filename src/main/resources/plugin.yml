@@ -2,4 +2,16 @@ name: PossibleDrops
 version: ${project.version}
 main: org.dragonet.possibledrops.PossibleDrops
 api-version: 1.13
+prefix: PossibleDrops
+authors: [DefinitlyEvil, relavis]
 description: A new way to deal with deaths, it adds drop possibilities for each item in the player's inventory. 
+
+commands:
+  possibledrops:
+    description: Commands to manage PossibleDrops
+    usage: /<command> [reload]
+
+permissions:
+  possibledrops.reload:
+    description: Allows you to reload the PossibleDrops config
+    default: op

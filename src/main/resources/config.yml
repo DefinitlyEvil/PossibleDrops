@@ -1,7 +1,6 @@
-##########################################
-#             Possible Drops             #
-#                     by DefinitlyEvil   #
-##########################################
+#
+# PossibleDrops config
+#
 
 # Drop chance settings
 chances:
@@ -10,7 +9,7 @@ chances:
   # You can regard it as a default drop chance.
   general: 0.5
 
-  # Experience drop.
+  # Experience drop - This is currently broken. Please leave at 1.
   exp:
     chance: 0.4
     # this defines the max percentage of experience will the player drop when hit
@@ -23,12 +22,14 @@ chances:
     fuels: 0.5
     blocks: 0.4
     tools:
+      netherite: 0.1
       diamond: 0.1
       golden: 0.3
       iron: 0.4
       stone: 0.5
       wooden: 0.6
     armors:
+      netherite: 0.1
       diamond: 0.1
       golden: 0.3
       iron: 0.4
